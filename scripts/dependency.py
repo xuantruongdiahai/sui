@@ -8,27 +8,6 @@ import re
 ROOT = os.path.join(os.path.dirname(__file__), "../")
 PATTERN = None
 
-def parse_args():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--project", default="move")
-    subparser = parser.add_subparsers(
-        dest="command",
-        description="""
-    Automatically manage the dependency path to Move repository.
-    Command "local" switches the dependency from git to local path.
-    Command "upgrade" upgrades the git revision. A repository can be
-    specified if we want to use a fork instead of upstream.
-    A revision or a branch also needs to be specified.
-    """,
-    )
-    subparser.add_parser("local")
-    upgrade = subparser.add_parser("upgrade")
-    upgrade.add_argument("--repo", required=False)
-    upgrade_group = upgrade.add_mutually_exclusive_group(required=True)
-    upgrade_group.add_argument("--rev")
-    upgrade_group.add_argument("--branch")
-    return parser.parse_args()
-
 def scan_file(file, process_line, depth=0):
     new_content = []
     with open(file) as f:
