@@ -12,31 +12,7 @@
     <br />
     <br />
     <a href="https://discord.gg/sui">Community</a>
-    ·
-    <a href="https://docs.sui.io/">Docs</a>
-  </p>
-</p>
-<hr>
 
-|             |             |
-| ----------- | ----------- |
-| Welcome to Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the [Move programming language](https://github.com/MystenLabs/awesome-move)! Find everything you need within the [Sui Developer Guides](doc/src/learn/index.md) and supporting materials below.      | <img src="doc/static/Sui_Icon_Brand.png" alt="sui_icon" width="200"/>      |
-
-## Quick links
-
-* To learn how to use Sui, take our [end-to-end tutorial](doc/src/explore/tutorials.md).
-* To jump right into building smart contract applications on top of Sui, start at the [Move Smart Contract Quick Start](doc/src/build/move/index.md).
-* To experiment with the Sui CLI client, check out [Sui CLI client Quick Start](doc/src/build/cli-client.md).
-* To understand what's possible by browsing Move code built on top of Sui, review the [examples](doc/src/explore/examples.md).
-* To start coding against Sui's JSON-RPC APIs, start at [JSON-RPC API Quick Start](doc/src/build/json-rpc.md).
-* To learn what distinguishes Sui from other blockchain systems, see [How Sui Differs?](doc/src/learn/sui-compared.md).
-* To go deep on how Sui works, read the [Sui Smart Contract Platform](doc/paper/sui.pdf) white paper.
-* To help Sui grow, follow [Contributing to Sui](doc/src/contribute/index.md).
-* To connect with the Sui community, join our [Discord](https://discord.gg/sui).
-
-### Highlights
-
-Sui offers:
 
 * Unmatched scalability, instant settlement
 * A safe smart contract language accessible to mainstream developers
